@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     public float maxHealth = 100f;
     public float currentHealth = 100f;
 
+    GameObject critButton;
+
     public Slider healthSlider;
 
     [SerializeField]
@@ -18,6 +20,10 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
+
+        critButton = GameObject.Find("CritButton");
+
+        critButton.GetComponent<Button>().interactable = false;
     }
 
     public void OnTargetTap()
