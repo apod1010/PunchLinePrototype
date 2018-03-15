@@ -5687,7 +5687,7 @@ Transform:
   - {fileID: 847639729}
   - {fileID: 1393557954}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &336712144
 Mesh:
@@ -7420,7 +7420,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4397815984172676, guid: 3b44c81729235ce4db4243c2fec02a9d, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 33345850570752722, guid: 3b44c81729235ce4db4243c2fec02a9d,
         type: 2}
@@ -17065,7 +17065,7 @@ Transform:
   - {fileID: 128764697}
   - {fileID: 1946641784}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &776299244
 Mesh:
@@ -17390,7 +17390,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &789728355
 Prefab:
@@ -22651,7 +22651,7 @@ Transform:
   - {fileID: 1041550139}
   - {fileID: 510766949}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1019408626
 Mesh:
@@ -25875,7 +25875,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4051046384135842, guid: 062bef96666638e4288f55cda4b69bf4, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 64864231107054450, guid: 062bef96666638e4288f55cda4b69bf4,
         type: 2}
@@ -27879,7 +27879,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4603840067428110, guid: add7f4960958ada468be9fe7b9a58f25, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 33104578643854758, guid: add7f4960958ada468be9fe7b9a58f25,
         type: 2}
@@ -42254,6 +42254,48 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
+--- !u!1001 &1885024048
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4579955861576730, guid: e1837d15077ab634a8c93b1a6db1e0d2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579955861576730, guid: e1837d15077ab634a8c93b1a6db1e0d2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579955861576730, guid: e1837d15077ab634a8c93b1a6db1e0d2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579955861576730, guid: e1837d15077ab634a8c93b1a6db1e0d2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579955861576730, guid: e1837d15077ab634a8c93b1a6db1e0d2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579955861576730, guid: e1837d15077ab634a8c93b1a6db1e0d2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579955861576730, guid: e1837d15077ab634a8c93b1a6db1e0d2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579955861576730, guid: e1837d15077ab634a8c93b1a6db1e0d2, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e1837d15077ab634a8c93b1a6db1e0d2, type: 2}
+  m_IsPrefabParent: 0
 --- !u!43 &1889233453
 Mesh:
   m_ObjectHideFlags: 0
@@ -46059,7 +46101,7 @@ Transform:
   - {fileID: 1241003693}
   - {fileID: 994224433}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2036866856
 Prefab:
